@@ -154,7 +154,7 @@ export default function Home() {
           </table>
           <div className='sudoku-actions'>
             <Button.Group>
-              <Button
+              {/* <Button
                 type='primary'
                 size='large'
                 onClick={() => setSolving(true)}
@@ -162,7 +162,7 @@ export default function Home() {
                 loading={solving}
               >
                 {solving ? 'Solving' : 'Solve Now!'}
-              </Button>
+              </Button> */}
               <Button
                 size='large'
                 onClick={() => setGenerating(true)}
