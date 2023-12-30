@@ -2,7 +2,6 @@
 import Image from 'next/image'
 import cx from 'classnames'
 import Sudoku from './lib/sudoku'
-import { matrixToolkit } from './utils'
 import { useRef, useState, useEffect } from 'react'
 import { Button, Modal, message } from 'antd'
 const mode = '9'
